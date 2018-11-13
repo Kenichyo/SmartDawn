@@ -1,0 +1,73 @@
+
+#card-panel{
+  border-radius: 25px;
+}
+
+
+#encenderA{
+  border-radius: 25px;
+}
+
+.slideres{
+  border-radius: 25px;
+}
+
+
+/* label color */
+.input-field label {
+  color: green !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: green !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: green !important;
+}
+
+.input-field .prefix {
+  color: green !important;
+}
+
+.input-field input[placeholder]{
+  color: green !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+color: green !important;
+}
+
+.input-field input[placeholder=text]:focus + label {
+  color: green !important;
+}
+/* label underline focus color */
+.input-field input[placeholder=text]:focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
+/* valid color */
+.input-field input[placeholder=text].valid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
+/* invalid color */
+.input-field input[placeholder=text].invalid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green !important;
+}
